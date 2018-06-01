@@ -11,3 +11,5 @@ cache:
   - "$HOME/.gradle"
 script:
 - "./gradlew clean build"
+ notifications:
+    slack: balbadak:S92TKBF9dOd0chLshIyGhjdv
